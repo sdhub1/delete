@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 50%;
+            /* border-top-left-radius: 40px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 20px; */
+            margin: 20px;
+            transition: all 0.1s ease;
+
+        }
+        .box:hover{
+            scale: 1.05;
+box-shadow: 20px 20px 20px rgba(214, 89, 89, 0.5);
+
+        }
+
+        .back{
+width: 500px;
+height: 500px;
+background-image:url('./img1.jpg') ;
+background-size:cover;
+background-repeat:no-repeat;
+        }
+        .back:hover{
+
+background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="back">Hello</div>
+</body>
+</html>
