@@ -1,0 +1,49 @@
+:root{
+    --base-color:red;
+    --secondary-color:#605be5;
+    --background-color:#fafafa
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-size: small;
+    font-weight: normal;
+}
+
+h1,li,p,.p2{
+    color:var(--base-color)
+}
+
+p:hover{
+    color: aqua;
+    font-size:1.2rem
+}
+
+li:nth-child(odd){
+    color:yellowgreen;
+}
+
+a{
+    color:var(--secondary-color);
+    text-decoration:none;
+}
+a::before{
+    color:red;
+    cursor:pointer;
+    text-decoration:none;}
+a:active{
+    color:green
+}
+.paragraph{
+    color:rgb(209, 255, 211);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.violet{
+    color:violet
+}
+
